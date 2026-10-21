@@ -1,48 +1,110 @@
 <!DOCTYPE html>
-<html lang='id'>
-
+<html lang="id">
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <meta name='description' content='Profil calon Junior Web Programmer'>
-    <title>Profil - Nama Peserta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Profil calon Junior Web Programmer">
+    <title>Profil - Muhammad Taufiqurrohman</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Muhammad Taufiqurrohman</h1>
-        <p>Calon Junior Web Programmer</p>
-        <nav>
-            <ul>
-                <li><a href='#tentang'>Tentang</a></li>
-                <li><a href='#keahlian'>Keahlian</a></li>
-                <li><a href='#kontak'>Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id='tentang'>
+    <header class='situs-header'> 
+  <div class='kontainer navbar'> 
+    <a class='logo' href='#'>Muhammad Taufiqurrohman</a> 
+    <nav> 
+      <ul class='menu'> 
+        <li><a href='#tentang'>Tentang</a></li> 
+        <li><a href='#layanan'>Layanan</a></li> 
+        <li><a href='#galeri'>Galeri</a></li> 
+        <li><a href='#kontak'>Kontak</a></li> 
+      </ul> 
+    </nav> 
+  </div> 
+</header> 
+
+    <main class="kontainer">
+        <section id="tentang" class="about-section">
             <h2>Tentang Saya</h2>
-            <figure> <img src='/hari-03-css3/img/Pasfoto_MTaufiqurrohman.jpeg' alt='Foto Nama Peserta' width='160' height='160'>
+            <figure class="profile-figure">
+                <img src="img/Foto profil.jpeg"
+                     alt="Foto Muhammad Taufiqurrohman"
+                     width="160" height="160">
                 <figcaption>Muhammad Taufiqurrohman, 2026</figcaption>
             </figure>
             <p>Saya sedang belajar <strong>pengembangan web</strong> dengan HTML, CSS, JavaScript, dan PHP.</p>
         </section>
-        <section id='keahlian'>
+
+        <section id="keahlian" class="skills-section">
             <h2>Keahlian</h2>
-            <ul>
+            <ul class="skills-list">
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
                 <li>PHP</li>
             </ul>
         </section>
+        <section id='layanan'> 
+  <div class='kontainer'> 
+    <h2>Layanan</h2> 
+    <div class='grid-kartu'> 
+      <article class='kartu'> 
+        <h3>Desain Website</h3> 
+        <p>Perluas jangkauan bisnismu dengan pembuatan website.</p> 
+      </article> 
+      <!-- ulangi untuk kartu lain --> 
+       <article class='kartu'> 
+        <h3>Handling Media Sosial</h3> 
+        <p>Konsumenmu lebih banyak scroll HP, jangkau mereka lewat dunianya.</p> 
+      </article> 
+      <article class='kartu'> 
+        <h3>Marketing Campaign</h3> 
+        <p>Pastikan produk anda dikenal lebih banyak konsumen.</p> 
+      </article> 
+      <article class='kartu'> 
+        <h3>Kelas Developer</h3> 
+        <p>Ikuti kelas private bersama kami.</p> 
+      </article> 
+    </div> 
+  </div> 
+</section> 
+<section id='galeri-section'> 
+  <div class='kontainer'> 
+    <h2>Gallery</h2> 
+    <div class='galeri'> 
+      <figure>
+         <img src="img/Foto 1.jpeg"
+                     alt="Foto Muhammad Taufiqurrohman"
+                     width="160" height="160">
+      </figure>
+       <figure>
+         <img src="img/Foto 2.jpeg"
+                     alt="Foto Muhammad Taufiqurrohman"
+                     width="160" height="160">
+      </figure>
+       <figure>
+         <img src="img/Foto 3.jpeg"
+                     alt="Foto Muhammad Taufiqurrohman"
+                     width="160" height="160">
+      </figure>
+       <figure>
+         <img src="img/Foto 4.jpeg"
+                     alt="Foto Muhammad Taufiqurrohman"
+                     width="160" height="160">
+      </figure>
+       
+    </div> 
+  </div> 
+</section>
+
     </main>
-    <footer id='kontak'>
-        <h2>Kontak</h2>
-        <p>Email: <a href='mailto:email@contoh.com'>muh.taufiq.rohman@gmail.com</a></p>
-        <p><small>&copy; 2026 Muhammad Taufiqurrohman</small></p>
+
+    <footer id="kontak" class="site-footer">
+        <div class="kontainer">
+            <h2>Kontak</h2>
+            <p>Email: <a href="mailto:muh.taufiq.rohman@gmail.com">muh.taufiq.rohman@gmail.com</a></p>
+            <p><small>&copy; 2026 Muhammad Taufiqurrohman</small></p>
+        </div>
     </footer>
 </body>
-
 </html>

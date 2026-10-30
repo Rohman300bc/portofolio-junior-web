@@ -1,0 +1,12 @@
+{
+    "name": "peserta/pendaftaran-pelatihan",
+    "authors": [
+        {
+            "name": "Muhammad Taufiqurrohman",
+            "email": "muh.taufiq.rohman@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^3.1"
+    }
+}
